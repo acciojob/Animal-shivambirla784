@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+body{
+    background-color: black;
+	display: flex;
+	justify-content: center;
+}
+
+#animal-photos{
+	width: 80vw;
+	background-color: #444444;
+}
+
+#photo-heading{
+	text-align: center;
+	font-weight: 300;
+	color: white;
+}
+
+.image-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+}
+
+img{
+	border-radius: 20px;
+}
